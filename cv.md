@@ -23,3 +23,4 @@ I am a beginner developer currently learning JavaScript and the basics of web de
 function multiply(a, b){
   return a * b
 }
+```
