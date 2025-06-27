@@ -9,7 +9,7 @@
 
 ## About myself
 
-I am a beginner developer, just starting to learn JavaScript and the basics of web development. I don’t have work experience yet, but I have a strong desire to learn, grow, and solve real-world problems. I quickly pick up new information, know how to find what I need, and try to apply my knowledge in practice right after learning it.
+I am a beginner developer currently learning JavaScript and the basics of web development. While I don’t have professional experience yet, I am highly motivated to grow, learn, and solve real-world problems. I quickly absorb new concepts, know how to find the information I need, and apply what I’ve learned in practice right away.
 
 ## Skills
 
