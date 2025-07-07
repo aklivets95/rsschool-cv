@@ -1,0 +1,185 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    background-color: #0f0f11;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #0f0f11;
+}
+
+.header__navigation {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+}
+
+.header__link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+    flex-grow: 1;
+}
+
+.main__title {
+    margin: 0 0 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.main__description {
+    margin: 0 0 50px;
+    font-size: 20px;
+    color: #6e9ff5;
+}
+
+.title {
+    margin: 0 0 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.about {
+    width: 900px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin: 0 0 40px;
+}
+
+.about__image {
+    border-radius: 50%;
+    margin-top: -20px;
+}
+
+.about__text {
+    align-self: center;
+}
+
+.about__description {
+    margin: 0;
+}
+
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills__list {
+    margin: 0 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+pre {
+    margin: 0;
+}
+
+.code {
+    margin-bottom: 40px;
+}
+
+.code__description {
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+}
+
+.contacts {
+    margin-bottom: 40px;
+}
+
+.contacts__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts__item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.contacts__item-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+.contacts__item {
+    margin: 0;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #6e9ff5;
+}
+
+.education {
+    margin-bottom: 40px;
+}
+
+.education__list {
+    margin: 0 0 0 15px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education__item-description {
+    margin: 0;
+}
+
+.projects__link {
+    text-decoration: none;
+    color: #6e9ff5;
+}
+
+.footer {
+    padding: 30px 0;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.footer__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
